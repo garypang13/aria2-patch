@@ -1,5 +1,5 @@
---- aria2-1.35.0/src/OptionHandlerFactory.cc	2018-05-15 20:33:25.000000000 +0800
-+++ OptionHandlerFactory.cc	2018-07-05 10:40:25.000000000 +0800
+--- /src/OptionHandlerFactory.cc	2018-05-15 20:33:25.000000000 +0800
++++ /src/OptionHandlerFactory.cc	2018-07-05 10:40:25.000000000 +0800
 @@ -440,7 +440,7 @@
    {
      OptionHandler* op(new NumberOptionHandler(PREF_MAX_CONNECTION_PER_SERVER,
